@@ -1,0 +1,17 @@
+{
+  "name": "node-simplest",
+  "version": "0.0.1",
+  "description": "A simple node project with no frameworks",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "author": "Rodrigo Tardelli",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.0.0",
+    "nodemon": "^2.0.3"
+  }
+}
